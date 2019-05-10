@@ -2,7 +2,7 @@ const cacheName = 'v1';
 
 const cacheFiles = [
     './',
-    './portfolio.html',
+    './index.html',
     '/css/cssreset.css',
     '/css/main.css',
     '/css/style.css',
