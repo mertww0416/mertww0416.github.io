@@ -1,0 +1,287 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    background-color: white;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#a {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+#home {
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+#home:hover {
+    width: 100px;
+    height: 100px;
+}
+#bg{
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+}
+.about {
+
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.aboutme {
+    margin-top: 100px;
+    background-color: #0033ff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 25vw;
+    text-align: center;
+    font-size: 20px;
+    align-content: center;
+    text-decoration: none;
+}
+.aboutme:hover {
+    background-color: #4A00B5;
+}
+.about:hover {
+    background-color: #4A00B5;
+}
+#titel {
+    color: white;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+#titel2 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+section {
+    width: 100%;
+    height: 800px;
+}
+#information {
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+#section2 {
+    background-color: white;
+}
+
+#container2 {
+    display: flex;
+    justify-content: center;
+}
+#flex {
+    margin-top: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+#aboutmecontainer {
+    display: flex;
+    justify-content: center;
+}
+#nav {
+    color: #0033FF;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    position: fixed;
+    margin-left: 10px;
+}
+#nav2 {
+    color: #0033FF;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    position: fixed;
+    margin-left: 120px;
+}
+#nav3 {
+    color: #0033FF;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    position: fixed;
+    left: 270px;
+}
+#nav:hover {
+    color: red;
+}
+#nav2:hover {
+    color: red;
+}
+#nav3:hover {
+    color: red;
+}
+#navstick {
+    color: #0033FF;
+    font-size: 25px;
+    position: fixed;
+    margin-left: 105px;
+    padding-top: 20px;
+}
+#navstick2 {
+    color: #0033FF;
+    font-size: 25px;
+    position: fixed;
+    margin-left: 250px;
+    padding-top: 20px;
+}
+
+#container3 {
+    display: flex;
+    background-color: #262626;
+}
+@media only screen and (max-width: 802px) {
+    #container3 {
+        flex-direction: column;
+        border-bottom: 4px solid white;
+    }
+}
+
+
+#myDiv1 {
+    border-right: 4px solid white;
+    width: 33vw;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 800px) {
+    #myDiv1 {
+         /*flex-direction: column;*/
+         border-bottom: 4px solid white;
+         width: 100%;
+     }
+}
+
+
+#myDiv2 {
+    border-right: 4px solid white;
+    width: 33vw;
+    align-content: center;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 800px) {
+    #myDiv2 {
+        /*flex-direction: column;*/
+        border-bottom: 4px solid white;
+        border-right: 0;
+
+    }
+}
+#myDiv3 {
+    width: 33vw;
+    align-content: center;
+}
+@media only screen and (max-width: 800px) {
+    #myDiv3 {
+
+    }
+}
+#specs {
+    padding-top: 10px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+li {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    padding-left: 5px;
+    z-index: 2;
+}
+#d1 {
+    color: ghostwhite;
+    /*width: 300px;*/
+    height: 420px;
+    padding: 10px;
+    border-right: 4px solid white;
+    /*position: relative;*/
+    /*right: 250px;*/
+}
+.cv {
+    text-decoration: none;
+    padding: 20px;
+    background-color: white;
+    border-radius: 25px;
+    color: #262626;
+    /*width: 300px;*/
+    position: relative;
+    top: 100px;
+    right: 20px;
+}
+.cv:hover {
+    background-color: lightgrey;
+}
+@media only screen and (max-width: 1100px) {
+    .cv {
+        right: 100px;
+    }
+}
+@media only screen and (max-width: 911px) {
+    .cv {
+        left: 100px;
+    }
+}
+.information {
+    width: 350px;
+    font-size: 19px;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    margin-left: 100px;
+}
+@media only screen and (max-width: 1300px) {
+    .information {
+        width: 200px;
+    }
+}
+#socialmedia {
+    display: flex;
+    justify-content: center;
+}
+
+#mijnfoto {
+    border-radius: 10%;
+    position: relative;
+    top: 30px;
+    left: 155px;
+}
+@media only screen and (max-width: 1100px) {
+    #mijnfoto {
+        left: 100px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    #mijnfoto {
+        left: 50px;
+    }
+}
+#htmlfoto {
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+    left: 200px;
+}
+@media only screen and (max-width: 1100px) {
+    #htmlfoto {
+        width: 200px;
+        height: 200px;
+    }
+}
+.contact100-form-btn {
+    background-color: #0033ff;
+}
